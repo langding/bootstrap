@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>bootstrap响应式布局</title>
+
+    <!-- 引入Bootstrap样式文件 -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 引入我们自己的样式文件 -->
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-md-2">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="" class="hidden-xs">
+                        <span class="visible-xs">阿里百秀</span>
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#" class="glyphicon glyphicon-camera">生活馆</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-picture">自然汇</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-phone">科技湖</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-eye-open">奇趣事</a></li>
+                        <li><a href="#" class="glyphicon glyphicon-filter">美食街</a></li>
+                    </ul>
+                </div>
+            </header>
+            <article class="col-md-7">
+<!--               新闻-->
+                <div class="news clearfix">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/1.jpg" alt="">
+                                <p>青岛核酸检测样现场</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/2.jpg" alt="">
+                                <p>菲律宾新冠病例达344713例</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/3.jpg" alt="">
+                                <p>哥伦比亚推防疫泡泡头盔</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/4.jpg" alt="">
+                                <p>北京荣成迎首批越冬天鹅</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/5.jpg" alt="">
+                                <p>纽约花艺师插花致敬医护</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+<!--                发表-->
+                <div class="publish">
+                 <div class="row">
+                     <div class="col-sm-9">
+                         <h3>青岛万余名医务人员采集样本400多万份 未发现新增阳性</h3>
+                         <p class="text-muted hidden-xs">发布于 2020-10-13 21:42</p>
+                         <p class="hidden-xs">10月13日，市民在青岛市市北区合肥路街道桦川路社区检测点进行核酸检测采样。 记者13日从青岛市政府新闻办召开的新闻发布会上获悉，青岛市目前共有万余名医务人员进行全员核酸检测工作，</p>
+                         <p class="text-muted">阅读(127)评论(2)赞 (0)<span class="hidden-xs" >标签：新冠 疾病 疫情 </span></p>
+                     </div>
+                     <div class="col-sm-3 pic hidden-xs">
+                         <img src="images/1.jpg" alt="">
+                     </div>
+                 </div>
+                  <div class="row">
+                      <div class="col-sm-9">
+                          <h3>青岛万余名医务人员采集样本400多万份 未发现新增阳性</h3>
+                          <p class="text-muted hidden-xs">发布于 2020-10-13 21:42</p>
+                          <p class="hidden-xs">10月13日，市民在青岛市市北区合肥路街道桦川路社区检测点进行核酸检测采样。 记者13日从青岛市政府新闻办召开的新闻发布会上获悉，青岛市目前共有万余名医务人员进行全员核酸检测工作，</p>
+                          <p class="text-muted">阅读(127)评论(2)赞 (0)<span class="hidden-xs" >标签：新冠 疾病 疫情 </span></p>
+                      </div>
+                      <div class="col-sm-3 pic hidden-xs">
+                          <img src="images/1.jpg" alt="">
+                      </div>
+                  </div>
+                   <div class="row">
+                       <div class="col-sm-9">
+                           <h3>青岛万余名医务人员采集样本400多万份 未发现新增阳性</h3>
+                           <p class="text-muted hidden-xs">发布于 2020-10-13 21:42</p>
+                           <p class="hidden-xs">10月13日，市民在青岛市市北区合肥路街道桦川路社区检测点进行核酸检测采样。 记者13日从青岛市政府新闻办召开的新闻发布会上获悉，青岛市目前共有万余名医务人员进行全员核酸检测工作，</p>
+                           <p class="text-muted">阅读(127)评论(2)赞 (0)<span class="hidden-xs" >标签：新冠 疾病 疫情 </span></p>
+                       </div>
+                       <div class="col-sm-3 pic hidden-xs">
+                           <img src="images/1.jpg" alt="">
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-sm-9">
+                           <h3>青岛万余名医务人员采集样本400多万份 未发现新增阳性</h3>
+                           <p class="text-muted hidden-xs">发布于 2020-10-13 21:42</p>
+                           <p class="hidden-xs">10月13日，市民在青岛市市北区合肥路街道桦川路社区检测点进行核酸检测采样。 记者13日从青岛市政府新闻办召开的新闻发布会上获悉，青岛市目前共有万余名医务人员进行全员核酸检测工作，</p>
+                           <p class="text-muted">阅读(127)评论(2)赞 (0)<span class="hidden-xs" >标签：新冠 疾病 疫情 </span></p>
+                       </div>
+                       <div class="col-sm-3 pic hidden-xs">
+                           <img src="images/1.jpg" alt="">
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-sm-9">
+                           <h3>青岛万余名医务人员采集样本400多万份 未发现新增阳性</h3>
+                           <p class="text-muted hidden-xs">发布于 2020-10-13 21:42</p>
+                           <p class="hidden-xs">10月13日，市民在青岛市市北区合肥路街道桦川路社区检测点进行核酸检测采样。 记者13日从青岛市政府新闻办召开的新闻发布会上获悉，青岛市目前共有万余名医务人员进行全员核酸检测工作，</p>
+                           <p class="text-muted">阅读(127)评论(2)赞 (0)<span class="hidden-xs" >标签：新冠 疾病 疫情 </span></p>
+                       </div>
+                       <div class="col-sm-3 pic hidden-xs">
+                           <img src="images/1.jpg" alt="">
+                       </div>
+                   </div>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <h3>青岛万余名医务人员采集样本400多万份 未发现新增阳性</h3>
+                            <p class="text-muted hidden-xs">发布于 2020-10-13 21:42</p>
+                            <p class="hidden-xs">10月13日，市民在青岛市市北区合肥路街道桦川路社区检测点进行核酸检测采样。 记者13日从青岛市政府新闻办召开的新闻发布会上获悉，青岛市目前共有万余名医务人员进行全员核酸检测工作，</p>
+                            <p class="text-muted">阅读(127)评论(2)赞 (0)<span class="hidden-xs" >标签：新冠 疾病 疫情 </span></p>
+                        </div>
+                        <div class="col-sm-3 pic hidden-xs">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside class="col-md-3">
+                <a href="#" class="banner">
+                    <img src="images/zgboke.jpg" alt="">
+                </a>
+                <a href="#" class="hot">
+                    <span class="btn btn-primary">热搜</span>
+                    <h4 class="text-primary">欢迎加入中国博客联盟</h4>
+                    <p class="text-muted">这里收录了国内各个领域的优秀博客，是一个全人工编辑的的开放式博客联盟交流和展示平台......</p>
+                </a>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
